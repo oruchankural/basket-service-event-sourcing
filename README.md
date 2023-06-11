@@ -1,11 +1,11 @@
 # basket-service-event-sourcing
 
-[Retrieving PostgreSQL bash]
+# [Retrieving PostgreSQL bash]
 docker exec -it [Container Id] psql -U [Username] -d [Database Name]
 
-[Retrieving Tables]
+# [Retrieving Tables]
 basket-service=# \d
-[Sample Tables that created by default]
+# [Sample Tables that created by default]
                 List of relations
  Schema |          Name          |   Type   |  Owner
 --------+------------------------+----------+----------
@@ -16,6 +16,6 @@ basket-service=# \d
  public | mt_streams             | table    | hanordev
 (5 rows)
 
-[Get Streams]
+# [Get Streams]
 select * from mt_streams;
 
